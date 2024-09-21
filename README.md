@@ -2,12 +2,12 @@
 # CSIT327 - G7     BSIT - 3     Cebu Institute of Technology - University
 
 # Group Members:
-# 1. Martus, Matthew Rimar S.
+# 1. Martus, Matthew Rimar S.  - Owner
 # 2. Calzada, Earl Owen V.
 # 3. Cagampang, Emmanuel A. Jr.
 
 # Required code and documentary repository
-#   Funstional Requirements
+#   Functional Requirements
 #   Gantt Chart
 #   ERD
 #   UI/UX Design
