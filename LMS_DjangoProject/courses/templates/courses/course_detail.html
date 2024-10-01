@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ course.title }}{% endblock %}
+
+{% block content %}
+<h2>{{ course.title }}</h2>
+<p>{{ course.description }}</p>
+<p>Owner: {{ course.owner.username }}</p>
+<p>Students Enrolled: {{ course.students.count }}</p>
+<!-- Add functionality for posts and file uploads here -->
+{% endblock %}
