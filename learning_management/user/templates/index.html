@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Klases | Welcome</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'styles/default.css' %}">
+    </head>
+    <body>
+        <nav>
+            <div class="logo-container">
+                {% comment %} <img src="{% static 'images/logo.png' %}" alt="Logo" class="logo"> {% endcomment %}
+                <span class="site-title">WILDCATS KLASE</span>
+                <span class="tagline">Learning Management System</span>
+            </div>
+            <ul>
+                <li><a href="{% url 'login' %}"><button>Login</button></a></li>
+                <li><a href="{% url 'register' %}"><button>Register</button></a></li>
+            </ul>
+        </nav>
+
+        <div class="welcome-page-container">
+            <h2>Welcome</h2>
+            <h2>To</h2>
+            <h1>Klase</h1>
+        </div>
+    </body>
+</html>

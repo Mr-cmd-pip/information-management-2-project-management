@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-left: 15px;
+}
+
+button {
+    background-color: #4169E1; /* Blue */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #1914af; /* Darker Blue */
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #800000; /* Dark Red */
+    margin-top: 5px;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #666666; /* Gray */
+    margin-top: 5px;
+    font-weight: bold;
+}
