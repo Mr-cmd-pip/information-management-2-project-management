@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klase | Login</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url '' %}"><img src="{% static 'images/logo.png' %}" alt="Wildcats Klase Logo"></a></li>
+            <li class="nav-button">
+                <button {% comment %} onclick="window.location.href='{% url 'contact' %}'" {% endcomment %}>Contact</button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <div class="container">
+            <p class="welcome-text">Welcome</p>
+            <p class="sub-text">Login using school account</p>
+            <form class="form" method="POST" autocomplete="off">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" name="remember_me"> Remember me
+                    </label>
+                    <a {% comment %} href="{% url 'forgot_password' %}" {% endcomment %}  class="forgot-password">Forgot Password?</a>
+                </div>
+                <div class="login-button">
+                    <button type="submit" class="button-85" role="button">LOGIN</button>
+                </div>
+                <p class="register-text">Don't have an account? <a href="{% url 'register' %}"><strong>Sign In</strong></a></p>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>N. Bacalso Avenue, Cebu City | +63322617741</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Klase | Home</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><img src="{% static 'images/logo.png' %}" alt="Wildcats Klase Logo"></li>
+                <li class="nav-buttons">
+                    <button onclick="window.location.href='{% url 'login' %}'">Login</button>
+                    <button onclick="window.location.href='{% url 'register' %}'">Register</button>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="welcome-section">
+            <p class="welcome">Welcome</p>
+            <p class="welcome-to">to</p>
+            <p class="welcome-page">Klase</p>
+        </div>
+        
+        {% block content %}{% endblock %}
+        
+    </body>
+</html>

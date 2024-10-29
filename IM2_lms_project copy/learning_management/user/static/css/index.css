@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between; /* Maintain space between logo and buttons */
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Make ul take the full width */
+    justify-content: space-between; /* Distribute items between ends */
+}
+
+nav li {
+    margin-right: 15px; /* Space between logo and buttons */
+}
+
+nav li img {
+    height: 50px;
+    padding-left: 20px;
+}
+
+nav .nav-buttons {
+    margin-left: auto; /* Push buttons to the right */
+    margin-right: 25px;
+}
+
+nav button {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px; /* Space between buttons */
+}
+
+nav button:hover {
+    background-color: #043be2;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: auto;
+}
+
+.welcome, .welcome-to {
+    font-size: 52px;
+    font-weight: bold;
+    color: #FFD700	;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.welcome-page {
+    font-size: 72px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #db1a1a;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-shadow: 0px 0px 0px rgb(153, 45, 6);
+    transition: color 0.3s ease;
+}
