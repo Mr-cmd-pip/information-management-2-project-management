@@ -44,12 +44,7 @@ The Above Made By : Martus, Matthew Rimar S.
 
 ## Run Locally
 
-1. Clone the project
-
-```bash
-git clone https://github.com/JivSTuban/lms.git
-```
-
+1. Download the lms.zip file
 2. Create a virtual environment and activate it (Windows)
 
 ```bash
