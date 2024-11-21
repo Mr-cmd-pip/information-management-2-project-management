@@ -1,11 +1,15 @@
-# CSIT327 BSIT - 3     Cebu Institute of Technology - University
+# Cebu Institute of Technology - University
+CSIT327 - G7
+
+BSIT - 3
+
 Group Members:
  1. Martus, Matthew Rimar S.  -  Owner of the repository
  2. Calzada, Earl Owen V.
  3. Cagampang, Emmanuel A. Jr.
 
 ## Klase (Learning Management System)
-Kalse is a learning management and online assessment system for academic education for students and instructors.
+Klase is a comprehensive learning management and online assessment system designed to enhance academic education for both students and instructors. It provides a robust platform for user authentication, course management, enrollment management, assignment submission, and interactive discussions, ensuring a seamless and efficient learning experience.
 
 ## Run Locally
 
