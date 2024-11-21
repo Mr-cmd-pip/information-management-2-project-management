@@ -1,20 +1,70 @@
-# Klase
-A learning management and online assessment system for academic education.
-
-## CSIT327 - G7     BSIT - 3     Cebu Institute of Technology - University
-
-## Group Members:
- 1. Martus, Matthew Rimar S.  - Owner of the repository
+# CSIT327 - G7     BSIT - 3     Cebu Institute of Technology - University
+Group Members:
+ 1. Martus, Matthew Rimar S.  -  Owner of the repository
  2. Calzada, Earl Owen V.
  3. Cagampang, Emmanuel A. Jr.
+
+## Klase (Learning Management System)
+Kalse is a learning management and online assessment system for academic education for students and instructors.
+
+## Run Locally
+
+1. Download the lms.zip file
+2. Create a virtual environment and activate it (Windows)
+
+```bash
+python -m venv env
+```
+
+```bash
+env\Scripts\activate
+```
+
+3. Create a virtual environment and activate it (MacOS)
+
+```bash
+python3 -m venv env
+```
+
+```bash
+source env/bin/activate
+```
+
+4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Make migrations and migrate
+
+```bash
+python manage.py makemigrations
+```
+
+```bash
+python manage.py migrate
+```
+
+6. Create admin/superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+7. Finally run the project
+
+```bash
+python manage.py runserver
+```
+
+Now the project should be running on http://127.0.0.1:8000/
 
 ## Required code and documentary repository
  1. Functional Requirements
  2. Gantt Chart
  3. ERD
  4. UI/UX Design
-
-The Above Made By : Martus, Matthew Rimar S.
 
 ## Gantt Chart Link:
 
@@ -41,62 +91,3 @@ The Above Made By : Martus, Matthew Rimar S.
 3. jQuery
 4. Chart.js
 5. Animate.css
-
-## Run Locally
-
-1. Download the lms.zip file
-2. Create a virtual environment and activate it (Windows)
-
-```bash
-python -m venv env
-```
-
-```bash
-env\Scripts\activate
-```
-
-3. Create a virtual environment and activate it (MacOS)
-
-```bash
-python3 -m venv env
-```
-
-```bash
-source env/bin/activate
-```
-
-4. Go to the klase directory
-
-```bash
-cd klase
-```
-
-5. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-6. Make migrations and migrate
-
-```bash
-python manage.py makemigrations
-```
-
-```bash
-python manage.py migrate
-```
-
-7. Create admin/superuser
-
-```bash
-python manage.py createsuperuser
-```
-
-8. Finally run the project
-
-```bash
-python manage.py runserver
-```
-
-Now the project should be running on http://127.0.0.1:8000/
