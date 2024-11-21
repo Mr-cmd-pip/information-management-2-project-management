@@ -1,4 +1,4 @@
-# CSIT327 - G7     BSIT - 3     Cebu Institute of Technology - University
+# CSIT327 BSIT - 3     Cebu Institute of Technology - University
 Group Members:
  1. Martus, Matthew Rimar S.  -  Owner of the repository
  2. Calzada, Earl Owen V.
@@ -60,11 +60,49 @@ python manage.py runserver
 
 Now the project should be running on http://127.0.0.1:8000/
 
+## Tech Stack
+
+1. Django
+2. Bootstrap
+3. jQuery
+4. Chart.js
+5. Animate.css
+
 ## Required code and documentary repository
  1. Functional Requirements
  2. Gantt Chart
  3. ERD
  4. UI/UX Design
+
+## Functional Requirement
+1. User Authentication
+   Description: Users (stduents) can create accounts, log in, and log out while (instructors) can only be created by admins but can still log in and logout.
+    Details:
+     - Registration with username, email, password
+     - Login with username and password
+2. Course Management
+   Description: Instructors can create, update and delete courses.
+    Details:
+     - Creates a new course with title, description and other relevant details.
+     - Edit course details
+     - Delete courses
+3. Enrollment Management
+   Description: Students can enroll in and withdraw from courses.
+    Details:
+     - View available courses
+     - Enroll in a couurse
+     - Withdraw from a course
+4. Assignment Submission
+   Description: Students can submit assignments, and instructors can grade them.
+    Details:
+     - Submit assignments in various formats (e.g. documents, code file, etc.)
+     - View and download submitted assignments.
+     - Instructors can grade and provide feedback on assingments.
+5. Discussion Forum
+   Description: Students and Instructors can participate in course-related discussions.
+    Details:
+     - Post and reply to discussion topics
+     - Moderation tools for instructors to manage discussions
 
 ## Gantt Chart Link:
 
@@ -83,11 +121,3 @@ Now the project should be running on http://127.0.0.1:8000/
 ```bash
    https://www.figma.com/design/vSgB07hCwSr54QPheBsdOy/Assignment-%233%3A-System-UI%2FUX?node-id=0-1&t=61s05jexIn8YlwWF-1
 ```
-
-## Tech Stack
-
-1. Django
-2. Bootstrap
-3. jQuery
-4. Chart.js
-5. Animate.css
