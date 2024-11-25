@@ -123,5 +123,5 @@ Now the project should be running on http://127.0.0.1:8000/
 ## UI/UX Link:
 
 ```bash
-   https://www.figma.com/design/vSgB07hCwSr54QPheBsdOy/Assignment-%233%3A-System-UI%2FUX?node-id=0-1&t=61s05jexIn8YlwWF-1
+   https://www.figma.com/board/UQNcDgun2TJrc0eVdP9ABQ/ERD--(LEARNING-MANAGEMENT-SYSTEM)?node-id=0-1&t=Wkwy9taTa4ydTPR6-1
 ```
