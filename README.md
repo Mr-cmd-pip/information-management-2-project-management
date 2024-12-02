@@ -64,14 +64,6 @@ python manage.py runserver
 
 Now the project should be running on http://127.0.0.1:8000/
 
-## Tech Stack
-
-1. Django
-2. Bootstrap
-3. jQuery
-4. Chart.js
-5. Animate.css
-
 ## Required code and documentary repository
  1. Functional Requirements
  2. Gantt Chart
